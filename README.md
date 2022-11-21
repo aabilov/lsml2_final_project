@@ -1,1 +1,1 @@
-# lsml2_final_project
+# This README serves as design document 
