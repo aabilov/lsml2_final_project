@@ -33,7 +33,7 @@ Below is description of files:
 
 ## Network description
 
-
+```bert-base-cased``` was used for tuning and tokenization. Pytorch lightning was used as framework. 
 
 ## Dataset description
 
