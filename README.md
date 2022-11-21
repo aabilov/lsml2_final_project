@@ -7,7 +7,11 @@ The goal of this poject is to classify amazon.com book reviews between negative 
 ## How to reproduce 
 
 1) Dowload everything as one directory
-2) Run command ``` adsdasd```
+2) Download pickle file that was produces by the BERT (this pickle file is too big for github repo, you can dowload it from here ```https://drive.google.com/file/d/1K32r1BzgzdfVhLOdE-sX-2eNjD-j0h6e/view?usp=sharing```) and place it inside downloaded directory
+3) Run command ``` sudo docker build -t abilov:latest -f Dockerfile .``` inside dwnloaded directory
+4) When docker image finished building, run ```sudo docker run -p 80:80 abilov:latest```
+5) Follow this link in your browser ```http://0.0.0.0:80```, you will see HTML frontend with field to write in
+6) Write review, wait till it finished and see answer (either "Negative review" or "Positive review")
 
 ## Network description
 
