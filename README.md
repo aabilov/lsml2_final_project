@@ -6,7 +6,8 @@ The goal of this poject is to classify amazon.com book reviews between negative 
 
 ## How to reproduce 
 
-1) Dowload everything as one directory 
+1) Dowload everything as one directory
+2) Run command ``` adsdasd```
 
 ## Network description
 
