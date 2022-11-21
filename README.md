@@ -12,7 +12,15 @@ The goal of this poject is to classify amazon.com reviews between negative and p
 
 Below is description of files:
 
-1)
+- ```LSML2_Abilov_Alikhan.ipynb``` - Jupyter Notebook from Google Colab with trained BERT 
+- ```Dockerfile``` - Dockerfile for building image
+- ```dataset.py``` - Dataset class definition 
+- ```model.py``` - BERT model class definition 
+- ```return_pred.py``` - takes string as stdin and outputs sentiment as stdout
+- ```app.py``` - main REST API file
+- ```templates``` - directory with HTML frontend 
+- ```requirements.txt``` - required python packages
+- ```model.pt``` - pickle file (to download, see "How to reproduce")
  
 ## How to reproduce 
 
