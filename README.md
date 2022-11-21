@@ -2,8 +2,8 @@
 
 ## Project documentation
 
-The goal of this poject is to classify amazon.com book reviews between negative and positive.  
-
+The goal of this poject is to classify amazon.com reviews between negative and positive. See "Dataset description" section for dataset overview. It utilises fine-tuned BERT model to classify reviews between positive and negative. BERT was trained on Google Colab, see file ```LSML2_Abilov_Alikhan.ipynb```. After beeing trained, pickle file was extracted. To download pickle file, see "How to reproduce" section. After that, HTML frontend was developed using FastAPI. This API with pickle file and other files is then composed into docker file (see ```Dockerfile```). 
+ 
 ## How to reproduce 
 
 1) Dowload everything as one directory
