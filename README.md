@@ -33,7 +33,7 @@ Below is description of files:
 
 ## Network description
 
-```bert-base-cased``` was used for tuning and tokenization. Pytorch lightning was used as framework. 
+Notebook can be reproduced inside colab. ```bert-base-cased``` was used for tuning and tokenization. Pytorch lightning was used as framework. Network is BERT model with last linear layer with two output for two classes. Since it's simple classification task with two balanced classes, accurasy was used as metric. Due to Google Colab limitation, only part of whole dataset was used with bath size 32 and 5 epoches. Final accurasy of model is around 0.74. 
 
 ## Dataset description
 
